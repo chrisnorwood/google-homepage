@@ -1,0 +1,170 @@
+/* Styles for Google homepage clone */
+*:focus {
+    outline: none;
+}
+
+body {
+	font-family: Arial, san-serif;
+	font-size: 13px;
+}
+
+/* Navbar Header */
+
+nav {
+	float: right;
+	height: 50px;
+	margin-top: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav .name {
+	color: #757575;
+}
+
+nav li{
+	display: inline;
+	margin-right: 15px;
+}
+
+nav a {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+nav a:visited  {
+	color: #000;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.grid {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-image: url('../img/sq.png');
+	background-size: 16px 16px;
+	vertical-align: middle;
+}
+
+.bell {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-image: url('../img/bell.png');
+	background-size: 20px 20px;
+	vertical-align: middle;
+}
+
+.profile {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-image: url('../img/profile.png');
+	background-size: 32px 32px;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+
+.grid, .bell {
+	opacity: 0.5;
+}
+
+.grid:hover, .bell:hover {
+	opacity: 1;
+}
+
+/* Logo & Search Bar */
+
+#content {
+	width: 100%;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#text_bar {
+	width: 600px;
+	height: 26px;
+	font-size: 16px;
+	padding: 4px;
+	border: 1px solid #d9d9d9;
+	margin-top: 20px;
+	background: url('../img/mic.png') no-repeat right;
+	background-size: 25px 25px;
+}
+
+#text_bar:hover {
+	border: 1px solid #b9b9b9;
+}
+
+#text_bar:focus {
+	border: 1px solid #4d90fe;
+}
+
+p input {
+	height: 36px;
+	width: 140px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+
+	color: #757575;
+	background-color: #F2F2F2;
+	border: 1px solid #FFF;
+	border-radius: 2px;
+	
+	margin-top: 25px;
+	margin-right: 5px;
+	padding: 0 10px;
+}
+
+p input:hover {
+	border: 1px solid #b9b9b9;
+	color: #000;
+}
+
+/* Footer */
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+
+	color: #757575;
+	background: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+}
+
+#footer ul, li {
+	display: inline;
+}
+
+#footer li {
+	padding-left: 35px;
+}
+
+.r_foot {
+	float: right;
+	padding-right: 25px;
+}
+
+#footer a {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#footer a:visited  {
+	color: #757575;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
